@@ -195,11 +195,11 @@ async def on_start(client: Client, message: Message):
     if message.from_user.id not in AUTH_USERS:
         return await message.reply_text("<blockquote><b>I only work for @ManhwaClubbup, Ask my senpai to use me @aaru_2074.</b></blockquote>")
     logger.info(f"User {message.from_user.id} started the bot")
-    await message.reply("<blockquote>Welcome to the best Sect Manga bot!!\n</blockquote>"
+    await message.reply("<blockquote>𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗯𝗮𝗰𝗸 𝗦𝗲𝗻𝗽𝗮𝗶❟ 𝗖𝗹𝘂𝗯𝗯'𝘀 𝗠𝗮𝗻𝗴𝗮 𝗯𝗼𝘁 𝗶𝘀 𝗮𝘁 𝘆𝗼𝘂𝗿 𝘀𝗲𝗿𝘃𝗶𝗰𝗲!!\n</blockquote>"
                         "\n"
                         "How to use? Just type the name of some manga you want to keep up to date.\n"
                         "<blockquote>For example:\n</blockquote>"
-                        "`Solo Leveling`\n"
+                        "`𝗦𝗼𝗹𝗼 𝗟𝗲𝘃𝗲𝗹𝗶𝗻𝗴`\n"
                         "\n"
                         "Check /help for more information.\n"
                         "<blockquote>𝘰𝘳 𝘤𝘰𝘯𝘵𝘢𝘤𝘵 @aaru_2074</blockquote>")
