@@ -11,13 +11,16 @@ from .ninemanga import NineMangaClient
 from .likemanga import LikeMangaClient
 from .mangasee import MangaSeeClient
 from .reaperscans import ReaperScansClient
+# Not Working for render/koyeb [ONLY VPS]
+from .mgecko import MgekoClient
+from .asurascans import AsuraScansClient
 #Manhwa working clients
 from .manhwaclan import ManhwaClanClient
 from .comick import ComickClient
-from .mgecko import MgekoClient
-from .asurascans import AsuraScansClient
 from .mangabuddy import MangaBuddyClient
 from .mangadex import MangaDexClient
+from .weebcentral import WeebCentralClient
+from .flamecomics import FlameComicsClient
 #18+ clients
 from .omgeascans import OmgeaScansClient
 from .manga18fx import Manga18fxClient
